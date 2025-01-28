@@ -9,6 +9,15 @@ Remember to apply the firmware to the "/lib/firmware/"
 This driver had successfully compiled under ZYNQMP
 
 ```
+dmesg | grep iw
+[    8.084812] iwlwifi 0000:01:00.0: enabling device (0000 -> 0002)
+[    8.141423] iwlwifi 0000:01:00.0: loaded firmware version 29.1044073957.0 op_mode iwlmvm
+[    8.200546] iwlwifi 0000:01:00.0: Detected Intel(R) Dual Band Wireless AC 3165, REV=0x210
+[    8.247130] iwlwifi 0000:01:00.0: base HW address: 
+[    8.307847] ieee80211 phy0: Selected rate control algorithm 'iwl-mvm-rs'
+```
+
+```
 01:00.0 Network controller: Intel Corporation Wireless 3165 (rev 81)
         Subsystem: Intel Corporation Dual Band Wireless AC 3165
         Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
